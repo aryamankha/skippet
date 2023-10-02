@@ -20,7 +20,15 @@ export default function Home() {
             width: "300px",
           }}
         >
-          <Dropdown status="Active" text="Select..."></Dropdown>
+          <Dropdown
+            status="Active"
+            text="Select..."
+            options={[
+              { color: "Green", text: "Hello" },
+              { color: "Gray", text: "Hola" },
+              { color: "Orange", text: "Bonjour" },
+            ]}
+          ></Dropdown>
         </div>
       </main>
     </div>
